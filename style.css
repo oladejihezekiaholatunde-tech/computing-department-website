@@ -1,0 +1,126 @@
+/* General styling */
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f7fb;
+color: #333;
+margin: 0;
+padding: 0;
+}
+
+/* Header */
+header {
+background-color: #123c69;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+header h1 {
+margin: 0;
+}
+
+/* Navigation */
+nav {
+margin-top: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+padding: 8px;
+display: inline-block;
+}
+
+nav a:hover {
+background-color: #f4a261;
+color: #123c69;
+}
+
+/* Homepage section */
+.hero {
+background-color: #2878a5;
+color: white;
+text-align: center;
+padding: 60px 20px;
+}
+
+.hero h2 {
+font-size: 30px;
+}
+
+/* Button */
+.btn {
+background-color: #f4a261;
+color: #123c69;
+text-decoration: none;
+padding: 10px 20px;
+display: inline-block;
+border-radius: 5px;
+}
+
+/* Page headings */
+.page-banner {
+background-color: #2878a5;
+color: white;
+text-align: center;
+padding: 30px;
+}
+
+/* Main content */
+.content {
+background-color: white;
+margin: 20px;
+padding: 20px;
+}
+
+.content h2,
+.programme h3 {
+color: #123c69;
+}
+
+/* Programme sections */
+.programme {
+background-color: #f4f7fb;
+padding: 15px;
+margin: 15px 0;
+}
+
+/* Footer */
+footer {
+background-color: #123c69;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+
+/* Contact form */
+.contact-form {
+background-color: white;
+padding: 20px;
+margin: 20px auto;
+max-width: 500px;
+}
+
+.contact-form label {
+display: block;
+margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+box-sizing: border-box;
+}
+
+.contact-form button {
+background-color: #123c69;
+color: white;
+padding: 10px;
+margin-top: 15px;
+border: none;
+cursor: pointer;
+}
